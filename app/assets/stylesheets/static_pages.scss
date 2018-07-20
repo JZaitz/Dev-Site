@@ -9,6 +9,13 @@
  * Section Header =container
  *****************************************
 */
+body {
+
+  background: url(./images/IMG_1086.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 
 body {
   /*border: 1px solid red;*/
@@ -131,13 +138,13 @@ body {
 }
 
 .nav li:first-of-type {
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .nav li:last-of-type {
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 /*
  *****************************************
