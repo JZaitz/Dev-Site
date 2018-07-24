@@ -18,7 +18,7 @@
 */
 body {
 
-  background: url(./images/IMG_1086.JPG);
+  background: url(image_path('IMG_1086.JPG'));
   background-repeat: no-repeat;
   background-size: 100% 68%;
 }
@@ -245,16 +245,16 @@ header {
 }
 
 .one {
-  background: url('./images/IMG_2417.png') no-repeat center 0;
+  background: url(image_path('IMG_2417.png')) no-repeat center 0;
   background-size: 364px 200px;
 }
 
 .two {
-  background: url('./images/IMG_1260.png') no-repeat center 0;
+  background: url(image_path('IMG_1260.png')) no-repeat center 0;
   background-size: 364px 200px;
 }
 .three {
-  background: url('./images/IMG_1407.png') no-repeat center 0;
+  background: url(image_path('IMG_1407.png')) no-repeat center 0;
   background-size: 364px 200px;
 }
 
