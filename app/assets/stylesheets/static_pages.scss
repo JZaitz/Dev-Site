@@ -18,7 +18,7 @@
 */
 body {
 
-  background: url(../images/IMG_1086.JPG);
+  background: url(./images/IMG_1086.JPG);
   background-repeat: no-repeat;
   background-size: 100% 68%;
 }
@@ -58,69 +58,79 @@ body {
 
 
 }
+ span:hover {
+   color: blue;
+ }
 
-
-#logo {
-  background: url('../images/globalnav_text.svg') no-repeat -71px -3px;
-  width: 18px;
-  height: 22px;
+#github {
+  background: url('') no-repeat -71px -3px;
+  width: 31px;
+  height: 6px;
   margin-top: 3px;
 }
 
-#store {
-  background: url('../images/globalnav_text.svg') no-repeat -64px -38px;
+#resume {
+  background: url('') no-repeat -71px -3px;
+  width: 35px;
+  height: 19px;
+  margin-top: 3px;
+}
+
+#ruby {
+  background: url('') no-repeat -64px -38px;
   width: 31px;
   height: 12px;
 }
 
-#mac {
-  background: url('../images/globalnav_text.svg') no-repeat -68px -68px;
+#rails {
+  background: url('') no-repeat -68px -68px;
   width: 24px;
   height: 12px;
 }
 
-#ipod {
-  background: url('../images/globalnav_text.svg') no-repeat -67px -98px;
+#javascript {
+  background: url('') no-repeat -67px -98px;
   width: 26px;
   height: 12px;
 }
 
-#iphone {
-  background: url('../images/globalnav_text.svg') no-repeat -60px -128px;
+#html {
+  background: url('') no-repeat -60px -128px;
   width: 41px;
   height: 12px;
 }
 
-#ipad {
-  background: url('../images/globalnav_text.svg') no-repeat -68px -158px;
+#css {
+  background: url('') no-repeat -68px -158px;
   width: 24px;
   height: 13px;
 }
 
-#itunes {
-  background: url('../images/globalnav_text.svg') no-repeat -62px -188px;
+#git {
+  background: url('') no-repeat -62px -188px;
   width: 37px;
   height: 12px;
 }
 
-#support {
-  background: url('../images/globalnav_text.svg') no-repeat -56px -218px;
-  width: 48px;
-  height: 15px;
+#sql {
+  background: url('') no-repeat -56px -218px;
+  width: 37px;
+  height: 12px;
 }
 
 #search {
-  width: 140px;
+  width: 37px;
+  height: 12px;
 }
 
-#search input {
+/*#search input {
   background-color: inherit;
   height: 20px;
   width: 106px;
   margin: 6px 0 0 17px;
   border-radius: 10px;
 
-}
+} */
 
 .nav li {
   text-align: center;
@@ -194,6 +204,17 @@ header {
   text-align: center;
   position: relative;
   top: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#bio2 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 /*
@@ -224,22 +245,22 @@ header {
 }
 
 .one {
-  background: url('../images/IMG_2417.png') no-repeat center 0;
+  background: url('./images/IMG_2417.png') no-repeat center 0;
   background-size: 364px 200px;
 }
 
 .two {
-  background: url('../images/IMG_1260.png') no-repeat center 0;
+  background: url('./images/IMG_1260.png') no-repeat center 0;
   background-size: 364px 200px;
 }
 .three {
-  background: url('../images/IMG_1407.png') no-repeat center 0;
+  background: url('./images/IMG_1407.png') no-repeat center 0;
   background-size: 364px 200px;
 }
 
 .four {
   border-right: none;
-  background: url('../images/IMG_9401.JPG') no-repeat center 0;
+  background: url('./images/IMG_9401.JPG') no-repeat center 0;
   background-size: 364px 200px;
 }
 
@@ -255,6 +276,7 @@ p, ul {
 
 footer {
   width: 954px;
+  height: 10%;
   margin: 8px auto 20px auto;
 }
 
@@ -263,7 +285,7 @@ footer {
   width: 460px;
   vertical-align: top;
   color: #6e6e6e;
-  font-size: .7em;
+  font-size: .9em;
   line-height: 1.2;
 }
 
