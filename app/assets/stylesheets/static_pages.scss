@@ -1,8 +1,19 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#titleh1 {
+.title {
     text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#fullname {
+  color: white;
+  /* color: #32154f; */
+}
+
+#fullstack {
+  color: white;
+  /* color: #32154f; */
 }
 /*
  *****************************************
@@ -17,10 +28,11 @@
 }
 */
 body {
-
-  background: url(image_path('IMG_1086.JPG'));
+  background: url(image_path('IMG_0101.JPG'));
+  /* background: url(./images/IMG_1086.JPG); */
   background-repeat: no-repeat;
   background-size: 100% 68%;
+
 }
 
 
@@ -42,6 +54,7 @@ body {
 */
 
 .nav-wrapper {
+  font-family: Tahoma, Geneva, sans-serif;
   margin: auto;
   width: 1070px;
   padding-top: 15px;
@@ -200,21 +213,26 @@ header {
 }
 
 #bio {
+  font-family: "Courier New", Courier, monospace;
+  font-size: .8em;
   color: white;
   text-align: center;
   position: relative;
-  top: 100px;
+  top: 140px;
   margin-left: 60px;
   margin-right: 60px;
 }
 
 #bio2 {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.2em;
   color: white;
   text-align: center;
   position: relative;
   top: 250px;
   margin-left: 60px;
   margin-right: 60px;
+
 }
 
 /*
@@ -229,7 +247,8 @@ header {
   overflow: hidden;
   height: 200px;
   width: 25%;
-  border-top: 3px solid white;
+  border-radius: 16px;
+  border-top: 6px solid white;
   border-right: 3px solid white;
           box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -278,6 +297,7 @@ footer {
   width: 954px;
   height: 10%;
   margin: 8px auto 20px auto;
+
 }
 
 .left, .right {
