@@ -298,6 +298,12 @@ p, ul {
   margin: 8px 0;
 }
 
+@media only screen and (max-width: 600px) {
+    footer {
+        display: none;
+    }
+}
+
 footer {
   width: 954px;
   /* height: 10%; */
