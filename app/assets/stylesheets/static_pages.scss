@@ -216,29 +216,48 @@ header {
   margin-top: -32px;
 
 }
-
 #bio {
-  font-family: "Courier New", Courier, monospace;
-  font-size: .8em;
+  font-family: Tahoma, Geneva, sans-serif;
+  /* font-family: "Courier New", Courier, monospace;  */
+  font-size: 1.1em;
   color: white;
   text-align: center;
   position: relative;
-  top: 140px;
+  top: 160px;
   margin-left: 60px;
   margin-right: 60px;
+  display: none;
 }
 
+#bio2:hover {
+  color: blue;
+  font-size: 1.5em;
+}
 #bio2 {
   font-family: Tahoma, Geneva, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: white;
   text-align: center;
   position: relative;
-  top: 250px;
+  top: 230px;
   margin-left: 60px;
   margin-right: 60px;
 
 }
+
+#bio3 {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.6em;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 190px;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: none;
+}
+
+
 
 /*
  *****************************************
