@@ -349,20 +349,13 @@ p, ul {
       display: none;
     }
    
-    body {
-      background: url(image_path('IMG_3740.JPG'));
-      /* background: url(./images/IMG_1086.JPG); */
-      background-repeat: no-repeat;
-      /* background-size: 100% 68%; */
-      background-size: 100% 89%;
-
-    }
+    
 
 
 }
 
 footer {
-  display: none;
+  
   width: 954px;
   /* height: 10%; */
   height: 100px;
@@ -371,7 +364,7 @@ footer {
 }
 
 .left, .right {
-  display: none;
+  
   display: inline-block;
   width: 460px;
   vertical-align: top;
