@@ -322,7 +322,8 @@ p, ul {
   margin: 8px 0;
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) { */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
     footer {
         display: none;
     }
