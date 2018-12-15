@@ -7,6 +7,10 @@
     font-family: Tahoma, Geneva, sans-serif;
 }
 
+.mobile {
+  display: none;
+}
+
 #fullname {
   color: white;
   text-align: center;
@@ -321,6 +325,33 @@ p, ul {
     footer {
         display: none;
     }
+    .mobile:hover {
+      color: blue;
+      font-size: 1.5em;
+    }
+    .mobile {
+      display: block;
+      float: left;
+      color: white;
+      font-family: Tahoma, Geneva, sans-serif;
+    }
+    h1 {
+      float: left;
+    }
+    h2 {
+      clear: both;
+      float: left;
+    }
+    nav {
+      display: none;
+    }
+    #bio2 {
+      display: none;
+    }
+   
+
+
+
 }
 
 footer {
